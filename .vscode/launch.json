@@ -13,8 +13,15 @@
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
+            "environment": [
+                {
+                    "name": "LANG",
+                    "value": "en_US.UTF-8"
+                }
+            ],
             "externalConsole": false,
+            "internalConsoleOptions": "neverOpen",
+
             "MIMode": "lldb"
         }
 
