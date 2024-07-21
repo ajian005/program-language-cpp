@@ -69,6 +69,7 @@
         "deque": "cpp",
         "stack": "cpp",
         "forward_list": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "queue": "cpp"
     }
 }
