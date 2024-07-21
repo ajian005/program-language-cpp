@@ -64,6 +64,9 @@
         "vector": "cpp",
         "csignal": "cpp",
         "thread": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "fstream": "cpp",
+        "deque": "cpp",
+        "stack": "cpp"
     }
 }

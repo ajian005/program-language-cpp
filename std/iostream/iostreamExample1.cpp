@@ -22,7 +22,38 @@ int iomanip_methdo() {
     return 0;
 }
 
+/**
+ * 流的状态检查
+ */
+int stream_state_check() {
+    int num;
+    std::cout << "Enter a number: ";
+    std::cin  >> num;
+    // 检查输入操作是否成功
+    if (std::cin.fail()) {
+        std::cerr << "Invalid input!" << std::endl;
+    } else {
+        std::cout << "You entered: " << num << std::endl;
+    }
+    return 0;
+}
+
+/**
+ * 处理字符串输入
+ */
+int string_input() {
+    std::string fulName;
+    std::cout << "Enter your full name:";
+    std::getline(std::cin, fulName);
+    std::cout << "Hello, " << fulName << "!" << std::endl;
+    return 0;
+}
+
 int main() {
+    string_input();
+    
+    stream_state_check();
+
     int age;
     std::string  name;
 

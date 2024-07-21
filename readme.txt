@@ -18,5 +18,6 @@ c_cpp_properties.json (compiler path and IntelliSense settings)
 
 问题列表
 1 输出中文问题？无法输出中文
+2 std::cin  >> num; 报错误: Unable to perform this action because the process is running.
 
 
